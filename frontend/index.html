@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Search Tool</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>PDF Search Tool</h1>
+            <p>Convert PDFs into searchable knowledge</p>
+        </header>
+
+        <div class="upload-section">
+            <h2>Upload PDF</h2>
+            <input type="file" id="pdfFile" accept=".pdf">
+            <button onclick="uploadPDF()">Upload & Process</button>
+            <div id="uploadStatus"></div>
+        </div>
+
+        <div class="search-section">
+            <h2>Search Documents</h2>
+            <div class="search-box">
+                <input type="text" id="searchQuery" placeholder="Enter your search query...">
+                <button onclick="searchDocuments()">Search</button>
+            </div>
+            <div id="searchResults"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

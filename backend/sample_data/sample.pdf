@@ -1,0 +1,17 @@
+Sample Document
+
+Chapter 1: Introduction
+This is a sample document for testing the PDF search tool. It contains various sections and information.
+
+Chapter 2: Features
+The tool can extract text from PDFs, perform OCR on scanned documents, and enable semantic search.
+
+Chapter 3: Usage
+Users can upload PDFs and search through the content using natural language queries.
+
+Table: Sample Data
+| Name    | Age | Department |
+|---------|-----|------------|
+| John    | 25  | Engineering|
+| Sarah   | 30  | Marketing  |
+| Mike    | 28  | Sales      |
